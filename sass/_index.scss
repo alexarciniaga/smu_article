@@ -111,12 +111,18 @@ body {
     #section8 {
         .container3 {
             text-align: center;
-
+            a {
+                transition:250ms;
+            }
             button {
                 background-color: #354ca1;
                 color: #fff;
                 padding: 14px 24px;
                 border: 1px solid #354ca1;
+                &:hover {
+                    background-color:rgba(53, 76, 161,.9);
+                    transition:.1s all ease;
+                }
             }
         }
 
